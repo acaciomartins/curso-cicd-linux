@@ -1,0 +1,7 @@
+logs
+------------
+Step para apagar mensagens de log
+
+Exemplo:
+
+logs "Mensagem de log"

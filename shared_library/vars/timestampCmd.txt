@@ -1,0 +1,16 @@
+timestampCmd
+------------
+
+Step customizado para adicionar timestamp em qualquer comando carregado.
+
+Exemplo:
+
+stage('test') {
+    steps {
+        script {
+            timestampCmd.cmd = "ls -l"
+            timestampCmd.runCmd()
+        }
+    }
+}
+
